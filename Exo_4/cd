@@ -1,0 +1,21 @@
+mongodb+srv://MelinaFeu:123456..@cluster0.grdqi.mongodb.net/
+
+projet
+    mongodb
+        mongodb.go
+        requestconstructor.go
+    controllers
+        student
+            student.go  ici vient le controller 
+    Routes
+        Common
+            router.go
+        student
+            student.go (crud)   students.post ("", studentController.Create)
+                                        .post ("/:id/suspends", studentController.Suspend)
+    Server
+        Flashcards.go
+    cmd/apo
+        envDefault   
+        main.go
+        router.go     
