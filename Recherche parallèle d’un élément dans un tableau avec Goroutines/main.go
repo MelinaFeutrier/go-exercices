@@ -1,3 +1,5 @@
+//Recherche parallèle d’un élément dans un tableau avec Goroutines
+
 package main
 
 import (

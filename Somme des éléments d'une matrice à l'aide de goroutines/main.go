@@ -1,3 +1,5 @@
+//Somme des éléments d'une matrice à l'aide de goroutines
+
 package main
 
 import (
