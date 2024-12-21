@@ -1,23 +1,39 @@
-# GO Exercises Repository
+# Go Exercises Project
 
-This repository contains various exercises to practice the Go programming language.
+This repository contains various exercises to practice and explore the Go programming language. Each exercise demonstrates different concepts and techniques in Go, including concurrency, APIs, database integration, and more.
 
-## List of Exercises
+## Exercises
 
-- **Exo_4**: Book représente un livre
-- **Exo_3**: Convertir userID en ObjectID
-- **Exo_bdd**: Connection to db
-- **exo_2**: Goroutines
-- **Structures_methodes_2**: No title provided
-- **FusionMaps_3**: No title provided
+- **Recherche parallèle d’un élément dans un tableau avec Goroutines**
+- **Recuperation d'utilisateurs via une API Go et MongoDB**
 - **Slices**: Créer un tableau avec les nombres de 1 à 10
-- **FusionMaps_2**: Retourner un tableau vide si N < 1 ou si N n'est pas un nombre entier
-- **exo_maps**: No title provided
+- **Somme des éléments d'une matrice à l'aide de goroutines**
+- **FusionMaps**: Retourner un tableau vide si N < 1 ou si N n'est pas un nombre entier
+- **Création d'une API en Go pour manipuler des données MongoDB**
 - **Tableaux_slices**: Call the function
-- **Pointeurs2**: No title provided
-- **Structures_methodes_1**: No title provided
-- **FusionMaps**: No title provided
-- **Pointeurs3**: Définition de la structure ListNode
-- **exo_1**: No title provided
-- **Pointeurs**: No title provided
-- **Interfaces**: No title provided
+- **Pointeurs**: Définition de la structure ListNode
+- **Interfaces**
+
+
+## How to Run
+
+Each exercise is contained within its own folder. To run an exercise:
+
+1. Navigate to the folder containing the exercise, e.g.:
+   ```bash
+   cd Exo_4
+   ```
+2. Run the Go file using:
+   ```bash
+   go run main.go
+   ```
+
+Make sure you have Go installed on your system before running the exercises.
+
+## Requirements
+
+- Go (latest version recommended)
+- MongoDB (for database-related exercises)
+- Internet connection (for API-related exercises)
+
+Feel free to explore and modify the exercises to enhance your understanding of Go!
